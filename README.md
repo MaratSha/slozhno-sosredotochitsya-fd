@@ -1,3 +1,5 @@
+https://github.com/MaratSha/slozhno-sosredotochitsya-fd
+
 # Проектная работа slozhno-sosredotochitsya
 Проект выполнен в рамках учебного курса "Фронтенд разработчик" Яндекс.Практикума<br>
 
