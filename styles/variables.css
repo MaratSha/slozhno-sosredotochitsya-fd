@@ -2,7 +2,7 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root {
+/* :root {
   --title-color: #db00ff;
   --text-color: #f1b2ce;
   --sub-text-color: #000028;
@@ -11,4 +11,31 @@
   --font-size: 18px;
   --btn-color: #ff0070;
   --backgroung-image: url(../images/cover-image-dark.png);
+  
+} */
+
+:root {
+  --background-image: url(../images/cover-image-dark.png);
+
+  --main-accent-color: #ff0070;
+  --main-title-color: #db00ff;
+  --text-color: #f1b2ce;
+  --menu-hover-color: #ff007066;
+  --font: "IBM Plex mono";
+  --font-size: 18px;
+
+
+  --text-size: 18px;
+  --gap:40px;
+  --gap-content:50px;
+  --padding:10px;
+
+}
+
+@media (width >= 768px) {
+  :root {
+    --gap:60px;
+    --gap-content:80px;
+    --padding:20px;
+  }
 }
