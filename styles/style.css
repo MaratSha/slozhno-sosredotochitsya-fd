@@ -199,7 +199,7 @@
 .answer {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /* gap: 10px; */
   padding-top: 20px;
 }
 
@@ -352,6 +352,7 @@
     grid-template-columns: 1fr 2fr;
     grid-template-areas: "question_why answers_why";
     gap: 20px;
+    padding-top: 20px;
   }
 
   .section_what {
@@ -369,7 +370,7 @@
   }
 
   .gallery_section {
-    margin-top: 74px;
+    margin-top: 80px;
   }
 
   .picture_question {
